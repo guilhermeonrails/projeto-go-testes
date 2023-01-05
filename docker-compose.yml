@@ -14,7 +14,7 @@ services:
     image: dpage/pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: "gui@alura.com"
-      PGADMIN_DEFAULT_PASSWORD: "123456"
+      PGADMIN_DEFAULT_PASSWORD: "1234567"
     ports:
       - "54321:80"
     depends_on:
